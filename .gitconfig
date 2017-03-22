@@ -1,0 +1,5 @@
+[user]
+	name = omniaura
+	email = omniaura5@gmail.com
+[merge]
+	tool = vimdiff
