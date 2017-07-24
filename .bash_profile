@@ -15,8 +15,3 @@ export PATH="/Applications/Blender/blender.app/Contents/MacOS:$PATH"
 # http://stackoverflow.com/questions/34010476/cannot-find-module-npmlog-error-message-when-using-npm-command#comment62534077_35518253
 export PATH="$HOME/.npm-packages/bin:$PATH"
 
-# OPAM (OCaml package manager (for CS 131)) setup
-. /Users/hliddiard/.opam/opam-init/init.sh > /dev/null 2> /dev/null || true
-
-# add Prolog to path (for CS 131)
-export PATH="/opt/local/bin:$PATH"
