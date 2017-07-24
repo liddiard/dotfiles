@@ -15,3 +15,6 @@ export PATH="/Applications/Blender/blender.app/Contents/MacOS:$PATH"
 # http://stackoverflow.com/questions/34010476/cannot-find-module-npmlog-error-message-when-using-npm-command#comment62534077_35518253
 export PATH="$HOME/.npm-packages/bin:$PATH"
 
+# add aws cli to path
+# http://docs.aws.amazon.com/cli/latest/userguide/cli-install-macos.html#awscli-install-osx-path
+export PATH="~/Library/Python/3.6/bin:$PATH"
