@@ -18,3 +18,11 @@ export PATH="$HOME/.npm-packages/bin:$PATH"
 # add aws cli to path
 # http://docs.aws.amazon.com/cli/latest/userguide/cli-install-macos.html#awscli-install-osx-path
 export PATH="~/Library/Python/3.6/bin:$PATH"
+
+# nvm command line
+# https://github.com/creationix/nvm#installatio
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
+
+# shortcut for hosts file reload
+alias refreshdns="sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder"
