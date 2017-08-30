@@ -18,3 +18,5 @@ export PATH="$HOME/.npm-packages/bin:$PATH"
 # add aws cli to path
 # http://docs.aws.amazon.com/cli/latest/userguide/cli-install-macos.html#awscli-install-osx-path
 export PATH="~/Library/Python/3.6/bin:$PATH"
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
