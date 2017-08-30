@@ -24,3 +24,11 @@ export PATH="~/Library/Python/3.6/bin:$PATH"
 # Google Cloud SDK
 source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.bash.inc'
 source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.bash.inc'
+
+# nvm command line
+# https://github.com/creationix/nvm#installatio
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
+
+# shortcut for hosts file reload
+alias refreshdns="sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder"
