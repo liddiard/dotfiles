@@ -1,0 +1,13 @@
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+.bash_profile
+.bashrc
+.tmux.conf
+.vimrc
+colors/
+
+# ...even if they are in subdirectories
+# !*/
