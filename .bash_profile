@@ -27,5 +27,14 @@ export PATH="~/Library/Python/3.6/bin:$PATH"
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
 
+# because macOS doesn't let us add things to default PATH locations even as root anymore sigh
+export PATH="/Users/hliddiard/Documents/PATH:$PATH"
+
 # shortcut for hosts file reload
 alias refreshdns="sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder"
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/hliddiard/google-cloud-sdk/path.bash.inc' ]; then . '/Users/hliddiard/google-cloud-sdk/path.bash.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/hliddiard/google-cloud-sdk/completion.bash.inc' ]; then . '/Users/hliddiard/google-cloud-sdk/completion.bash.inc'; fi
