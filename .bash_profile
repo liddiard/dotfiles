@@ -40,7 +40,7 @@ if [ -f '/Users/hliddiard/Documents/PATH/google-cloud-sdk/path.bash.inc' ]; then
 if [ -f '/Users/hliddiard/Documents/PATH/google-cloud-sdk/completion.bash.inc' ]; then . '/Users/hliddiard/Documents/PATH/google-cloud-sdk/completion.bash.inc'; fi
 
 # Make RabbitMQ available on PATH
-PATH=$PATH:/usr/local/sbin
+export PATH="/usr/local/sbin:$PATH"
 
 # automatically set iTerm tab title to the current directory, explanation in comment below, from https://gist.github.com/phette23/5270658
 if [ $ITERM_SESSION_ID ]; then
@@ -60,3 +60,18 @@ fi
 # see: stackoverflow.com/questions/1371261/get-current-directory-name-without-full-path-in-bash-script
 # then we append the rest of $PROMPT_COMMAND so as not to remove what was already there
 # voilà!
+
+# location of the default Nginx configuration file on macOS so I don't have to keep Googling it
+export NGINX_CONF=/usr/local/etc/nginx/nginx.conf
+
+export PATH="/Users/hliddiard/Library/Python/2.7/bin:$PATH"
+
+# https://apple.stackexchange.com/a/371998
+export BASH_SILENCE_DEPRECATION_WARNING=1
+
+# Java development: https://stackoverflow.com/a/13961656
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home/
+export PATH="/usr/local/apache-maven-3.3.9/bin:$PATH"
+
+# PayPal SSL certificate for work laptop, fixes "unable to get local issuer certificate" error
+export NODE_EXTRA_CA_CERTS=/Users/hliddiard/Developer/PayPalRootCAs/pypl2.pem
