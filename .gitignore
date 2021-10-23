@@ -3,11 +3,12 @@
 
 # But not these files...
 !.gitignore
-.bash_profile
-.bashrc
-.tmux.conf
-.vimrc
-colors/
+!.bash_profile
+!.bashrc
+!.tmux.conf
+!.vimrc
+!colors/
+!/.config/fish
 
 # ...even if they are in subdirectories
 # !*/
