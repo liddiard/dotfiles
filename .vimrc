@@ -41,9 +41,14 @@ set noerrorbells
 set visualbell
 set t_vb=
 
+" Dracula theme settings
+packadd! dracula
+syntax enable
+colorscheme dracula
+
 " Molokai theme settings
-colors molokai
-set background=dark
+" colors molokai
+" set background=dark
 
 " Map ctrl-j to switch pane
 map <C-j> <C-w><C-w>
