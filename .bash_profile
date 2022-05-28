@@ -27,6 +27,8 @@ export PATH="~/Library/Python/3.6/bin:$PATH"
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
 
+export PATH="/usr/local/bin:$PATH"
+
 # because macOS doesn't let us add things to default PATH locations even as root anymore sigh
 export PATH="/Users/hliddiard/Documents/PATH:$PATH"
 
@@ -65,6 +67,9 @@ fi
 export NGINX_CONF=/usr/local/etc/nginx/nginx.conf
 
 export PATH="/Users/hliddiard/Library/Python/2.7/bin:$PATH"
+
+# Homebrew on Apple Silicon
+export PATH="/opt/homebrew/bin:$PATH"
 
 # https://apple.stackexchange.com/a/371998
 export BASH_SILENCE_DEPRECATION_WARNING=1
