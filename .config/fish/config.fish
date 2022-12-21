@@ -28,4 +28,4 @@ egrep "^export " ~/.bash_profile | while read e
 end
 
 # https://github.com/fish-shell/fish-shell/issues/3023#issuecomment-387944920
-set PATH /Users/hliddiard/.nvm/versions/node/v12.22.1/bin $PATH
+# set PATH /Users/hliddiard/.nvm/versions/node/v12.22.1/bin $PATH

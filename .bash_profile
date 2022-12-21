@@ -78,9 +78,7 @@ export BASH_SILENCE_DEPRECATION_WARNING=1
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home/
 export PATH="/usr/local/apache-maven-3.3.9/bin:$PATH"
 
-# PayPal SSL certificate for work laptop, fixes "unable to get local issuer certificate" error...
-# ...for Node.js...
-export NODE_EXTRA_CA_CERTS=/Users/hliddiard/Developer/PayPalRootCAs/pypl2.pem
-# ...for Python
-export REQUESTS_CA_BUNDLE='/usr/local/etc/openssl/certs/combined_cacerts.pem'
-export SSL_CERT_FILE='/usr/local/etc/openssl/certs/combined_cacerts.pem'
+# make gem installs work (without RVM, on personal laptop)
+# https://stackoverflow.com/a/51012973
+export GEM_HOME="$HOME/.gem"
+export PATH="/Users/liddiard/.gem/bin:$PATH"
