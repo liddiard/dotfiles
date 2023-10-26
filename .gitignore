@@ -1,2 +1,0 @@
-# to ignore everything by default, run `git -C ~ config status.showuntrackedfiles no`
-# source: https://stackoverflow.com/a/59125373

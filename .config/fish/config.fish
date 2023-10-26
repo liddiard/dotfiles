@@ -28,4 +28,8 @@ egrep "^export " ~/.bash_profile | while read e
 end
 
 # https://github.com/fish-shell/fish-shell/issues/3023#issuecomment-387944920
-# set PATH /Users/hliddiard/.nvm/versions/node/v12.22.1/bin $PATH
+# set PATH /Users/hliddiard/.nvm/versions/node/v18.15.0/bin $PATH
+
+# make accessible commands installed via pip
+set PATH /Users/liddiard/Library/Python/3.9/bin $PATH
+
