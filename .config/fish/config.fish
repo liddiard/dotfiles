@@ -33,3 +33,6 @@ end
 # make accessible commands installed via pip
 set PATH /Users/liddiard/Library/Python/3.9/bin $PATH
 
+
+# Created by `pipx` on 2024-05-17 18:00:34
+set PATH $PATH /Users/liddiard/.local/bin
