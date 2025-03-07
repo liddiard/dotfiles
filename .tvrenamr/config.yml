@@ -1,0 +1,4 @@
+defaults:
+  format: '%n - S%s{2}E%e{2} - %t%x'
+  organise: no
+
