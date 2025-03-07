@@ -1,8 +1,4 @@
 set -o vi # enable vi mode
-PATH="/Applications/Postgres.app/Contents/Versions/9.3/bin:$PATH" # required for pip http://stackoverflow.com/a/21080707
-
-### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
 
 # Python's Sphix docs generator didn't like our locale :(
 # http://stackoverflow.com/a/10926115/2487925
@@ -66,17 +62,11 @@ fi
 # location of the default Nginx configuration file on macOS so I don't have to keep Googling it
 export NGINX_CONF=/usr/local/etc/nginx/nginx.conf
 
-export PATH="/Users/hliddiard/Library/Python/2.7/bin:$PATH"
-
 # Homebrew on Apple Silicon
 export PATH="/opt/homebrew/bin:$PATH"
 
 # https://apple.stackexchange.com/a/371998
 export BASH_SILENCE_DEPRECATION_WARNING=1
-
-# Java development: https://stackoverflow.com/a/13961656
-export JAVA_HOME=/Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home/
-export PATH="/usr/local/apache-maven-3.3.9/bin:$PATH"
 
 # make gem installs work (without RVM, on personal laptop)
 # https://stackoverflow.com/a/51012973
