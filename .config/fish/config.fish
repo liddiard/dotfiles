@@ -36,3 +36,6 @@ set PATH /Users/liddiard/Library/Python/3.9/bin $PATH
 
 # Created by `pipx` on 2024-05-17 18:00:34
 set PATH $PATH /Users/liddiard/.local/bin
+
+# include directory used by MacPorts https://superuser.com/a/436640
+set -xg PATH /opt/local/bin /opt/local/sbin $PATH

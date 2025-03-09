@@ -2,8 +2,8 @@
 
 {
   # Home Manager needs a bit of information about you and the paths it should manage
-  home.username = "liddiard";
-  home.homeDirectory = "/Users/liddiard";
+  home.username = "harrison";
+  home.homeDirectory = "/Users/harrison";
 
   # Allow unfree packages (necessary for some apps)
   nixpkgs.config.allowUnfree = true;
@@ -13,8 +13,11 @@
     # CLI tools
     git
     fish
+    wget
     tmux
+    vim
     emacs
+
     # GUI Applications
     coconutbattery
     monitorcontrol
@@ -52,5 +55,5 @@
   programs.home-manager.enable = true;
 
   # Specify Home Manager version
-  home.stateVersion = "23.05"; # Update with current version
+  home.stateVersion = "25.05"; # Update with current version
 }
