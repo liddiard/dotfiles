@@ -27,15 +27,8 @@ egrep "^export " ~/.bash_profile | while read e
 	set -xg $var $value
 end
 
-# https://github.com/fish-shell/fish-shell/issues/3023#issuecomment-387944920
-# set PATH /Users/hliddiard/.nvm/versions/node/v18.15.0/bin $PATH
-
-# make accessible commands installed via pip
-set PATH /Users/liddiard/Library/Python/3.9/bin $PATH
-
-
-# Created by `pipx` on 2024-05-17 18:00:34
-set PATH $PATH /Users/liddiard/.local/bin
-
 # include directory used by MacPorts https://superuser.com/a/436640
 set -xg PATH /opt/local/bin /opt/local/sbin $PATH
+
+# for Claude Code
+set -xg PATH /Users/harrison/.local/bin $PATH

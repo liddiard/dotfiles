@@ -1,12 +1,15 @@
 # This is Git's per-user configuration file.
 [user]
 # Please adapt and uncomment the following lines:
-name = Harrison Liddiard
+  name = Harrison Liddiard
 	email = git@harrisonliddiard.com
 [core]
 	autocrlf = input
 	excludesfile = /Users/liddiard/.gitignore_global
+	pager = diffr | less -R
 [advice]
 	addIgnoredFile = true
 [pull]
 	rebase = false
+[interactive]
+	difffilter = diffr

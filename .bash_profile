@@ -72,3 +72,6 @@ export BASH_SILENCE_DEPRECATION_WARNING=1
 # https://stackoverflow.com/a/51012973
 export GEM_HOME="$HOME/.gem"
 export PATH="/Users/liddiard/.gem/bin:$PATH"
+
+# Claude Code
+export PATH="$HOME/.local/bin:$PATH"
