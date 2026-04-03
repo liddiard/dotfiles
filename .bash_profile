@@ -18,10 +18,11 @@ export PATH="~/Library/Python/3.6/bin:$PATH"
 # Load RVM into a shell session *as a function*
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" 
 
-# nvm command line
-# https://github.com/creationix/nvm#installatio
+# Configuration to load nvm - node version manager
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
+# https://github.com/nvm-sh/nvm?tab=readme-ov-file#bash-completion
+[[ -r $NVM_DIR/bash_completion ]] && \. $NVM_DIR/bash_completion
 
 export PATH="/usr/local/bin:$PATH"
 
