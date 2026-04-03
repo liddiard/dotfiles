@@ -42,9 +42,8 @@ set visualbell
 set t_vb=
 
 " Dracula theme settings
-packadd! dracula
-syntax enable
-colorscheme dracula
+" https://draculatheme.com/vim
+if v:version < 802 packadd! dracula endif syntax enable colorscheme dracula
 
 " Molokai theme settings
 " colors molokai
