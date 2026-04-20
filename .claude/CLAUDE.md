@@ -25,6 +25,17 @@ The user who is prompting you is a software engineer who's familiar with full-st
 - Prefer keeping objects immutable, creating new objects (e.g. with spread syntax) over mutating existing ones.
 - For asynchronous operations, use `async`/`await` syntax.
 
+## Python coding guidelines
+
+- Use the `uv` package manager.
+- Follow Black's max line length of 88 chars.
+- Use modern Python syntax (3.14+).
+- Use type hints for all function signatures and return types.
+- Prefer f-strings everywhere.
+- Double quote all strings except for those used to index into a dictionary – use single quotes for those.
+- Prefer specific exception types over bare `except:` error catching.
+- Write Google-style docstrings for all non-trivial functions.
+
 ## React coding guidelines
 
 - Same guidelines as TypeScript apply, especially regarding immutable objects and functional array methods.
