@@ -32,3 +32,10 @@ set -xg PATH /opt/local/bin /opt/local/sbin $PATH
 
 # for Claude Code
 set -xg PATH /Users/harrison/.local/bin $PATH
+
+# for API keys: OpenCode
+if test -e ~/.config/fish/secrets.fish
+    source ~/.config/fish/secrets.fish
+else
+    echo (set_color yellow)"Warning: ~/.config/fish/secrets.fish not found. Some environment variables may be missing."(set_color normal)
+end
