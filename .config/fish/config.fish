@@ -39,3 +39,7 @@ if test -e ~/.config/fish/secrets.fish
 else
     echo (set_color yellow)"Warning: ~/.config/fish/secrets.fish not found. Some environment variables may be missing."(set_color normal)
 end
+
+# enable OpenCode web search
+# https://opencode.ai/docs/tools/#websearch
+set -xg OPENCODE_ENABLE_EXA 1

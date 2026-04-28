@@ -1,0 +1,23 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+
+  // Prompt the user for permission before executing any bash/shell commands.
+  // Other tools (read, edit, etc.) are left at their defaults.
+  "permission": {
+    "bash": "ask"
+  },
+
+  "mcp": {
+    "context7": {
+      "type": "local",
+      "command": ["npx", "-y", "@upstash/context7-mcp"],
+      "environment": {
+        "CONTEXT7_API_KEY": "{env:CONTEXT7_API_KEY}"
+      }
+    },
+    "chrome-devtools": {
+      "type": "local",
+      "command": ["npx", "chrome-devtools-mcp@latest"]
+    }
+  }
+}
