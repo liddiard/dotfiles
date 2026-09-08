@@ -1,9 +1,13 @@
 tap "anomalyco/tap"
 tap "arthur-ficial/tap", "https://github.com/Arthur-Ficial/homebrew-tap"
 tap "d12frosted/emacs-plus"
-tap "domt4/autoupdate", "https://github.com/DomT4/homebrew-autoupdate"
+tap "domt4/autoupdate", "https://github.com/DomT4/homebrew-autoupdate", trusted: { commands: ["autoupdate"] }
 tap "jurplel/tap"
-tap "mczachurski/wallpapper"
+tap "mczachurski/wallpapper", trusted: { formulae: ["wallpapper"] }
+# Library for manipulating PNG images
+brew "libpng"
+# Low-level library for pixel manipulation
+brew "pixman"
 # Vector graphics library with cross-device output support
 brew "cairo"
 # LCS based diff highlighting tool to ease code review from your terminal
@@ -42,6 +46,8 @@ brew "tmux"
 brew "wget"
 # The AI coding agent built for the terminal.
 brew "anomalyco/tap/opencode", trusted: true
+# On-device Apple FoundationModels CLI and OpenAI-compatible server
+brew "arthur-ficial/tap/apfel", trusted: true
 # Real-time strategy game
 cask "0-ad"
 # Memory training application
@@ -68,10 +74,12 @@ cask "claude-code"
 cask "coconutbattery"
 # Web browser with integrated AI assistant
 cask "comet"
+# Disk space visualiser
+cask "daisydisk"
 # Universal database tool and SQL client
 cask "dbeaver-community"
-# GNU Emacs text editor with patches for macOS
-cask "d12frosted/emacs-plus/emacs-plus-app"
+# GNU Emacs text editor with patches
+cask "d12frosted/emacs-plus/emacs-plus-app", trusted: true
 # Amazon Glacier file transfer client
 cask "freeze"
 # Set of tools to manage resources and applications hosted on Google Cloud
@@ -187,5 +195,3 @@ vscode "vscjava.vscode-java-test"
 vscode "vscjava.vscode-java-upgrade"
 vscode "vscjava.vscode-maven"
 vscode "wallabyjs.quokka-vscode"
-npm "corepack"
-npm "sass-migrator"
