@@ -2,7 +2,6 @@ tap "anomalyco/tap"
 tap "arthur-ficial/tap", "https://github.com/Arthur-Ficial/homebrew-tap"
 tap "d12frosted/emacs-plus"
 tap "domt4/autoupdate", "https://github.com/DomT4/homebrew-autoupdate", trusted: { commands: ["autoupdate"] }
-tap "jurplel/tap"
 tap "mczachurski/wallpapper", trusted: { formulae: ["wallpapper"] }
 # Library for manipulating PNG images
 brew "libpng"
@@ -74,6 +73,8 @@ cask "claude-code"
 cask "coconutbattery"
 # Web browser with integrated AI assistant
 cask "comet"
+# Server and cloud storage browser
+cask "cyberduck"
 # Disk space visualiser
 cask "daisydisk"
 # Universal database tool and SQL client
