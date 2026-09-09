@@ -83,8 +83,6 @@ cask "dbeaver-community"
 cask "d12frosted/emacs-plus/emacs-plus-app", trusted: true
 # Amazon Glacier file transfer client
 cask "freeze"
-# Set of tools to manage resources and applications hosted on Google Cloud
-cask "gcloud-cli"
 # Free and open-source image editor
 cask "gimp"
 # Web browser
