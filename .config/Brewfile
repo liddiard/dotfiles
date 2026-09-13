@@ -11,22 +11,22 @@ brew "pixman"
 brew "cairo"
 # LCS based diff highlighting tool to ease code review from your terminal
 brew "diffr"
-# Pack, ship and run any application as a lightweight container
-brew "docker"
 # Play, record, convert, and stream select audio and video codecs
 brew "ffmpeg"
 # User-friendly command-line shell for UNIX-like operating systems
 brew "fish"
 # Library and utilities for processing GIFs
 brew "giflib"
+# Framework for layout and rendering of i18n text
+brew "pango"
+# Interpreter for PostScript and PDF
+brew "ghostscript"
 # Improved top (interactive process viewer)
 brew "htop"
 # Tools and libraries to manipulate images in select formats
 brew "imagemagick"
 # Image manipulation library
 brew "jpeg"
-# Framework for layout and rendering of i18n text
-brew "pango"
 # Library to render SVG files using Cairo
 brew "librsvg"
 # Port scanning utility for large networks
@@ -79,6 +79,8 @@ cask "cyberduck"
 cask "daisydisk"
 # Universal database tool and SQL client
 cask "dbeaver-community"
+# App to build and share containerised applications and microservices
+cask "docker-desktop"
 # GNU Emacs text editor with patches
 cask "d12frosted/emacs-plus/emacs-plus-app", trusted: true
 # Amazon Glacier file transfer client
@@ -111,6 +113,8 @@ cask "obsidian"
 cask "postman"
 # Geographic Information System
 cask "qgis"
+# Remote desktop application focusing on security
+cask "realvnc-connect-viewer"
 # Instant messaging application focusing on security
 cask "signal"
 # Unpacks archive files
@@ -123,8 +127,6 @@ cask "transmission"
 cask "upscayl"
 # Open-source code editor
 cask "visual-studio-code"
-# Remote desktop application focusing on security
-cask "vnc-viewer"
 # Torrent streaming application
 cask "webtorrent"
 # Gecko based web browser
