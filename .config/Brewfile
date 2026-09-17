@@ -85,8 +85,6 @@ cask "dbeaver-community"
 cask "docker-desktop"
 # GNU Emacs text editor with patches
 cask "d12frosted/emacs-plus/emacs-plus-app", trusted: true
-# Amazon Glacier file transfer client
-cask "freeze"
 # Free and open-source image editor
 cask "gimp"
 # Web browser
