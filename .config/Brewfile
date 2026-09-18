@@ -9,14 +9,14 @@ brew "libpng"
 brew "pixman"
 # Vector graphics library with cross-device output support
 brew "cairo"
+# Library and utilities for processing GIFs
+brew "giflib"
 # LCS based diff highlighting tool to ease code review from your terminal
 brew "diffr"
 # Play, record, convert, and stream select audio and video codecs
 brew "ffmpeg"
 # User-friendly command-line shell for UNIX-like operating systems
 brew "fish"
-# Library and utilities for processing GIFs
-brew "giflib"
 # Framework for layout and rendering of i18n text
 brew "pango"
 # Interpreter for PostScript and PDF
@@ -45,6 +45,8 @@ brew "scrcpy"
 brew "tmux"
 # Internet file retriever
 brew "wget"
+# Feature-rich command-line audio/video downloader
+brew "yt-dlp"
 # The AI coding agent built for the terminal.
 brew "anomalyco/tap/opencode", trusted: true
 # On-device Apple FoundationModels CLI and OpenAI-compatible server
