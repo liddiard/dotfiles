@@ -1,0 +1,7 @@
+{
+  "alwaysThinkingEnabled": true,
+  "effortLevel": "high",
+  "editorMode": "vim",
+  "model": "sonnet",
+  "disableDeepLinkRegistration": "disable"
+}
