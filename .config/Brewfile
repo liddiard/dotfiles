@@ -13,6 +13,8 @@ brew "cairo"
 brew "giflib"
 # LCS based diff highlighting tool to ease code review from your terminal
 brew "diffr"
+# Select default apps for documents and URL schemes on macOS
+brew "duti"
 # Play, record, convert, and stream select audio and video codecs
 brew "ffmpeg"
 # User-friendly command-line shell for UNIX-like operating systems
