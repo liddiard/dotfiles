@@ -18,11 +18,12 @@ export PATH="~/Library/Python/3.6/bin:$PATH"
 # Load RVM into a shell session *as a function*
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" 
 
-# Configuration to load nvm - node version manager
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
-# https://github.com/nvm-sh/nvm?tab=readme-ov-file#bash-completion
-[[ -r $NVM_DIR/bash_completion ]] && \. $NVM_DIR/bash_completion
+# Load fnm - node version manager (https://github.com/Schniz/fnm#bash)
+# Note: written as an `if` rather than an `export` so ~/.config/fish/config.fish,
+# which imports `export` lines from this file, doesn't try to parse it.
+if [ -x /opt/homebrew/bin/fnm ]; then
+  eval "$(/opt/homebrew/bin/fnm env --use-on-cd --shell bash)"
+fi
 
 export PATH="/usr/local/bin:$PATH"
 

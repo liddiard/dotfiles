@@ -1,15 +1,16 @@
 {
-  "alwaysThinkingEnabled" : true,
-  "disableDeepLinkRegistration" : "disable",
-  "editorMode" : "vim",
-  "effortLevel" : "high",
-  "enabledPlugins" : {
-    "postman@claude-plugins-official" : true
+  "model": "sonnet",
+  "enabledPlugins": {
+    "postman@claude-plugins-official": true
   },
-  "model" : "sonnet",
-  "modelSettings" : {
-    "claude-sonnet-5-5" : {
-      "effortLevel" : "high"
+  "alwaysThinkingEnabled": true,
+  "effortLevel": "high",
+  "modelSettings": {
+    "claude-sonnet-5-5": {
+      "effortLevel": "high"
     }
-  }
+  },
+  "editorMode": "vim",
+  "disableDeepLinkRegistration": "disable",
+  "tui": "default"
 }
