@@ -18,6 +18,8 @@ brew "duti"
 brew "ffmpeg"
 # User-friendly command-line shell for UNIX-like operating systems
 brew "fish"
+# Fast and simple Node.js version manager
+brew "fnm"
 # Framework for layout and rendering of i18n text
 brew "pango"
 # Interpreter for PostScript and PDF
@@ -50,8 +52,8 @@ brew "tmux"
 brew "wget"
 # Feature-rich command-line audio/video downloader
 brew "yt-dlp"
-# The AI coding agent built for the terminal.
-brew "anomalyco/tap/opencode", trusted: true
+# OpenCode V2 - the AI coding agent for the terminal
+brew "anomalyco/tap/opencode-v2", trusted: true
 # On-device Apple FoundationModels CLI and OpenAI-compatible server
 brew "arthur-ficial/tap/apfel", trusted: true
 # Real-time strategy game
