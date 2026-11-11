@@ -20,6 +20,8 @@ brew "ffmpeg"
 brew "fish"
 # Fast and simple Node.js version manager
 brew "fnm"
+# GitHub command-line tool
+brew "gh"
 # Framework for layout and rendering of i18n text
 brew "pango"
 # Interpreter for PostScript and PDF
@@ -207,3 +209,4 @@ vscode "vscjava.vscode-java-test"
 vscode "vscjava.vscode-java-upgrade"
 vscode "vscjava.vscode-maven"
 vscode "wallabyjs.quokka-vscode"
+npm "corepack"
