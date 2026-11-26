@@ -16,5 +16,8 @@
   "plugin": [
     "@mohak34/opencode-notifier@latest",
     "@upstash/context7-opencode"
-  ]
+  ],
+
+  // Snapshots were eating up over 100 GB of disk space
+  "snapshots": false
 }
