@@ -1,13 +1,15 @@
 tap "anomalyco/tap"
 tap "arthur-ficial/tap", "https://github.com/Arthur-Ficial/homebrew-tap"
 tap "d12frosted/emacs-plus"
-tap "mczachurski/wallpapper", trusted: { formulae: ["wallpapper"] }
+tap "mczachurski/wallpapper"
 # Library for manipulating PNG images
 brew "libpng"
 # Low-level library for pixel manipulation
 brew "pixman"
 # Vector graphics library with cross-device output support
 brew "cairo"
+# Cross-platform make
+brew "cmake"
 # Library and utilities for processing GIFs
 brew "giflib"
 # LCS based diff highlighting tool to ease code review from your terminal
@@ -58,6 +60,7 @@ brew "yt-dlp"
 brew "anomalyco/tap/opencode-v2", trusted: true
 # On-device Apple FoundationModels CLI and OpenAI-compatible server
 brew "arthur-ficial/tap/apfel", trusted: true
+brew "mczachurski/wallpapper/wallpapper", trusted: true
 # Real-time strategy game
 cask "0-ad"
 # Memory training application
@@ -209,4 +212,3 @@ vscode "vscjava.vscode-java-test"
 vscode "vscjava.vscode-java-upgrade"
 vscode "vscjava.vscode-maven"
 vscode "wallabyjs.quokka-vscode"
-npm "corepack"
